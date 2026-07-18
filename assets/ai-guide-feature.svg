@@ -1,0 +1,44 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="500" viewBox="0 0 1200 500" role="img" aria-labelledby="title desc">
+  <title id="title">The Practical AI Guide</title>
+  <desc id="desc">A feature card showing the AI Guide curriculum and its five-step vibe-coding loop.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#171329"/><stop offset=".52" stop-color="#0C1828"/><stop offset="1" stop-color="#09251D"/></linearGradient>
+    <linearGradient id="accent" x1="0" y1="0" x2="1" y2="0"><stop stop-color="#A78BFA"/><stop offset=".5" stop-color="#22D3EE"/><stop offset="1" stop-color="#34D399"/></linearGradient>
+    <pattern id="dots" width="24" height="24" patternUnits="userSpaceOnUse"><circle cx="1" cy="1" r="1" fill="#94A3B8" opacity=".1"/></pattern>
+  </defs>
+  <rect width="1200" height="500" rx="26" fill="url(#bg)"/>
+  <rect width="1200" height="500" rx="26" fill="url(#dots)"/>
+  <rect x="34" y="34" width="1132" height="432" rx="20" fill="#080C16" fill-opacity=".38" stroke="#475569" stroke-opacity=".6"/>
+
+  <g transform="translate(70 68)">
+    <rect width="210" height="34" rx="17" fill="#8B5CF6" fill-opacity=".16" stroke="#A78BFA" stroke-opacity=".7"/>
+    <text x="105" y="22" text-anchor="middle" font-family="ui-monospace, Consolas, monospace" font-size="11" font-weight="700" letter-spacing="2" fill="#D8B4FE">FEATURED · OPEN GUIDE</text>
+    <text y="88" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="43" font-weight="900" letter-spacing="-1.5" fill="#F8FAFC">The Practical</text>
+    <text y="136" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="43" font-weight="900" letter-spacing="-1.5" fill="url(#accent)">AI Guide</text>
+    <text y="177" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="17" fill="#CBD5E1">Learn AI by building real things.</text>
+    <text y="203" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="17" fill="#CBD5E1">Prompt clearly. Ship safely. Keep control.</text>
+
+    <g transform="translate(0 240)" font-family="Inter, Segoe UI, Arial, sans-serif">
+      <g><rect width="126" height="76" rx="14" fill="#17142C" stroke="#8B5CF6" stroke-opacity=".55"/><text x="63" y="34" text-anchor="middle" font-size="24" font-weight="900" fill="#C4B5FD">17</text><text x="63" y="56" text-anchor="middle" font-size="11" font-weight="700" letter-spacing="1.2" fill="#94A3B8">CHAPTERS</text></g>
+      <g transform="translate(140)"><rect width="126" height="76" rx="14" fill="#09242A" stroke="#22D3EE" stroke-opacity=".55"/><text x="63" y="34" text-anchor="middle" font-size="24" font-weight="900" fill="#67E8F9">5</text><text x="63" y="56" text-anchor="middle" font-size="11" font-weight="700" letter-spacing="1.2" fill="#94A3B8">LABS</text></g>
+      <g transform="translate(280)"><rect width="126" height="76" rx="14" fill="#09251D" stroke="#34D399" stroke-opacity=".55"/><text x="63" y="34" text-anchor="middle" font-size="20" font-weight="900" fill="#6EE7B7">COPY</text><text x="63" y="56" text-anchor="middle" font-size="11" font-weight="700" letter-spacing="1.2" fill="#94A3B8">TEMPLATES</text></g>
+    </g>
+  </g>
+
+  <g transform="translate(575 68)">
+    <rect width="548" height="356" rx="20" fill="#0B1220" stroke="#22D3EE" stroke-opacity=".35"/>
+    <text x="28" y="38" font-family="ui-monospace, Consolas, monospace" font-size="11" font-weight="700" letter-spacing="2" fill="#67E8F9">THE SMALL-SLICE VIBE CODING LOOP</text>
+    <text x="520" y="38" text-anchor="end" font-family="ui-monospace, Consolas, monospace" font-size="11" fill="#64748B">PLAYBOOK.md</text>
+    <line x1="28" y1="55" x2="520" y2="55" stroke="#334155"/>
+    <g font-family="Inter, Segoe UI, Arial, sans-serif">
+      <g transform="translate(28 77)"><circle cx="22" cy="22" r="22" fill="#8B5CF6"/><text x="22" y="28" text-anchor="middle" font-size="16" font-weight="900" fill="#FFF">1</text><text x="62" y="18" font-size="16" font-weight="800" fill="#F8FAFC">FRAME</text><text x="62" y="38" font-size="13" fill="#94A3B8">Outcome, user, constraints, done.</text></g>
+      <path d="M50 121v17" stroke="#475569" stroke-width="2"/>
+      <g transform="translate(28 139)"><circle cx="22" cy="22" r="22" fill="#7C7BF2"/><text x="22" y="28" text-anchor="middle" font-size="16" font-weight="900" fill="#FFF">2</text><text x="62" y="18" font-size="16" font-weight="800" fill="#F8FAFC">SLICE</text><text x="62" y="38" font-size="13" fill="#94A3B8">One real path through the product.</text></g>
+      <path d="M50 183v17" stroke="#475569" stroke-width="2"/>
+      <g transform="translate(28 201)"><circle cx="22" cy="22" r="22" fill="#0891B2"/><text x="22" y="28" text-anchor="middle" font-size="16" font-weight="900" fill="#FFF">3</text><text x="62" y="18" font-size="16" font-weight="800" fill="#F8FAFC">BUILD</text><text x="62" y="38" font-size="13" fill="#94A3B8">AI moves fast inside clear boundaries.</text></g>
+      <path d="M50 245v17" stroke="#475569" stroke-width="2"/>
+      <g transform="translate(28 263)"><circle cx="22" cy="22" r="22" fill="#059669"/><text x="22" y="28" text-anchor="middle" font-size="16" font-weight="900" fill="#FFF">4</text><text x="62" y="18" font-size="16" font-weight="800" fill="#F8FAFC">PROVE + SHIP</text><text x="62" y="38" font-size="13" fill="#94A3B8">Test, use, explain, release, learn.</text></g>
+    </g>
+  </g>
+  <rect x="1" y="1" width="1198" height="498" rx="25" fill="none" stroke="url(#accent)" stroke-opacity=".45" stroke-width="2"/>
+</svg>
