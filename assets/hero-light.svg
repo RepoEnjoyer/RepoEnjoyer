@@ -7,29 +7,50 @@
     <linearGradient id="accent" x1="0" y1="0" x2="1" y2="0"><stop stop-color="#7C3AED"/><stop offset=".5" stop-color="#0891B2"/><stop offset="1" stop-color="#059669"/></linearGradient>
     <pattern id="grid" width="30" height="30" patternUnits="userSpaceOnUse"><path d="M30 0H0V30" fill="none" stroke="#475569" stroke-opacity=".06"/></pattern>
     <radialGradient id="glow"><stop stop-color="#06B6D4" stop-opacity=".14"/><stop offset="1" stop-color="#06B6D4" stop-opacity="0"/></radialGradient>
+    <filter id="dotGlow" x="-300%" y="-300%" width="700%" height="700%"><feGaussianBlur stdDeviation="3" result="blur"/><feMerge><feMergeNode in="blur"/><feMergeNode in="SourceGraphic"/></feMerge></filter>
+    <style>
+      .trace { stroke-dasharray: 10 13; animation: trace 9s linear infinite; }
+      .breath { animation: breath 5s ease-in-out infinite; }
+      .pulse-border { animation: borderPulse 3.6s ease-in-out infinite; }
+      .guide-card { animation: guidePulse 4.2s ease-in-out infinite; }
+      .runner { animation: runner 5s ease-in-out infinite; }
+      .guide-arrow { animation: nudge 1.8s ease-in-out infinite; }
+      .chip { animation: chipGlow 6s ease-in-out infinite; }
+      .chip-b { animation-delay: 1s; }
+      .chip-c { animation-delay: 2s; }
+      @keyframes trace { to { stroke-dashoffset: -92; } }
+      @keyframes breath { 0%, 100% { opacity: .62; } 50% { opacity: 1; } }
+      @keyframes borderPulse { 0%, 100% { stroke-opacity: .45; } 50% { stroke-opacity: 1; } }
+      @keyframes guidePulse { 0%, 100% { stroke-opacity: .3; } 50% { stroke-opacity: .75; } }
+      @keyframes runner { 0% { transform: translateX(0); opacity: 0; } 12% { opacity: 1; } 88% { opacity: 1; } 100% { transform: translateX(540px); opacity: 0; } }
+      @keyframes nudge { 0%, 100% { transform: translateX(0); } 50% { transform: translateX(7px); } }
+      @keyframes chipGlow { 0%, 100% { stroke-opacity: .3; } 18% { stroke-opacity: .9; } 36% { stroke-opacity: .3; } }
+      @media (prefers-reduced-motion: reduce) { .trace, .breath, .pulse-border, .guide-card, .runner, .guide-arrow, .chip { animation: none !important; } }
+    </style>
   </defs>
   <rect width="1200" height="460" rx="28" fill="url(#bg)"/>
   <rect width="1200" height="460" rx="28" fill="url(#grid)"/>
-  <circle cx="600" cy="190" r="310" fill="url(#glow)"/>
-  <g opacity=".5" stroke="url(#accent)" fill="none"><path d="M90 52H390"/><path d="M810 52H1110"/><path d="M90 52v18M1110 52v18"/><circle cx="390" cy="52" r="3" fill="#7C3AED"/><circle cx="810" cy="52" r="3" fill="#059669"/></g>
+  <circle class="breath" cx="600" cy="190" r="310" fill="url(#glow)"/>
+  <g class="trace" opacity=".5" stroke="url(#accent)" fill="none"><path d="M90 52H390"/><path d="M810 52H1110"/><path d="M90 52v18M1110 52v18"/><circle cx="390" cy="52" r="3" fill="#7C3AED"/><circle cx="810" cy="52" r="3" fill="#059669"/></g>
   <g>
-    <rect x="438" y="28" width="324" height="48" rx="24" fill="#FFFFFF" stroke="#7C3AED" stroke-opacity=".6"/>
+    <rect class="pulse-border" x="438" y="28" width="324" height="48" rx="24" fill="#FFFFFF" stroke="#7C3AED" stroke-opacity=".6"/>
     <text x="600" y="58" text-anchor="middle" font-family="ui-monospace, SFMono-Regular, Consolas, monospace" font-size="13" font-weight="700" letter-spacing="2.2" fill="#6D28D9">VIBE CODER · TOOL BUILDER</text>
   </g>
   <text x="600" y="177" text-anchor="middle" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="92" font-weight="900" letter-spacing="-4" fill="url(#word)">RepoEnjoyer</text>
-  <text x="600" y="219" text-anchor="middle" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="21" font-weight="600" fill="#334155">I turn rough ideas into useful software—then teach the method.</text>
+  <text x="600" y="219" text-anchor="middle" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="21" font-weight="600" fill="#334155">I turn rough ideas into useful software, then teach the method.</text>
   <rect x="330" y="246" width="540" height="3" rx="1.5" fill="url(#accent)"/>
+  <circle class="runner" cx="330" cy="247.5" r="4" fill="#111827" filter="url(#dotGlow)"/>
   <g transform="translate(275 273)">
-    <rect width="650" height="70" rx="16" fill="#FFFFFF" stroke="#0891B2" stroke-opacity=".4"/>
+    <rect class="guide-card" width="650" height="70" rx="16" fill="#FFFFFF" stroke="#0891B2" stroke-opacity=".4"/>
     <g transform="translate(24 13)"><rect width="44" height="44" rx="12" fill="#7C3AED" fill-opacity=".1" stroke="#7C3AED"/><text x="22" y="29" text-anchor="middle" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="18" font-weight="900" fill="#6D28D9">AI</text></g>
     <text x="86" y="29" font-family="ui-monospace, SFMono-Regular, Consolas, monospace" font-size="11" font-weight="700" letter-spacing="2" fill="#0E7490">TOP PROJECT</text>
     <text x="86" y="52" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="19" font-weight="800" fill="#111827">The Practical AI Guide · learn to vibe code</text>
-    <text x="620" y="43" text-anchor="end" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="24" fill="#059669">→</text>
+    <text class="guide-arrow" x="620" y="43" text-anchor="end" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="24" fill="#059669">→</text>
   </g>
   <g transform="translate(150 373)" font-family="ui-monospace, SFMono-Regular, Consolas, monospace">
-    <g><rect width="250" height="46" rx="13" fill="#F5F3FF" stroke="#7C3AED" stroke-opacity=".45"/><text x="125" y="29" text-anchor="middle" font-size="12" font-weight="700" letter-spacing="1.5" fill="#6D28D9">PROMPT → PROJECT</text></g>
-    <g transform="translate(325)"><rect width="250" height="46" rx="13" fill="#ECFEFF" stroke="#0891B2" stroke-opacity=".45"/><text x="125" y="29" text-anchor="middle" font-size="12" font-weight="700" letter-spacing="1.5" fill="#0E7490">LOCAL → PRIVATE</text></g>
-    <g transform="translate(650)"><rect width="250" height="46" rx="13" fill="#ECFDF5" stroke="#059669" stroke-opacity=".45"/><text x="125" y="29" text-anchor="middle" font-size="12" font-weight="700" letter-spacing="1.5" fill="#047857">BUILD → PROVE → SHIP</text></g>
+    <g><rect class="chip chip-a" width="250" height="46" rx="13" fill="#F5F3FF" stroke="#7C3AED" stroke-opacity=".45"/><text x="125" y="29" text-anchor="middle" font-size="12" font-weight="700" letter-spacing="1.5" fill="#6D28D9">PROMPT → PROJECT</text></g>
+    <g transform="translate(325)"><rect class="chip chip-b" width="250" height="46" rx="13" fill="#ECFEFF" stroke="#0891B2" stroke-opacity=".45"/><text x="125" y="29" text-anchor="middle" font-size="12" font-weight="700" letter-spacing="1.5" fill="#0E7490">LOCAL → PRIVATE</text></g>
+    <g transform="translate(650)"><rect class="chip chip-c" width="250" height="46" rx="13" fill="#ECFDF5" stroke="#059669" stroke-opacity=".45"/><text x="125" y="29" text-anchor="middle" font-size="12" font-weight="700" letter-spacing="1.5" fill="#047857">BUILD → PROVE → SHIP</text></g>
   </g>
   <rect x="1" y="1" width="1198" height="458" rx="27" fill="none" stroke="#7C3AED" stroke-opacity=".2" stroke-width="2"/>
 </svg>
