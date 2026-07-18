@@ -1,0 +1,52 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="420" viewBox="0 0 1200 420" role="img" aria-labelledby="title desc">
+  <title id="title">RepoEnjoyer</title>
+  <desc id="desc">A bright technical workshop banner with project nodes orbiting a central RE monogram.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#F7F7FF"/>
+      <stop offset="0.5" stop-color="#F0F7FF"/>
+      <stop offset="1" stop-color="#EEFCF8"/>
+    </linearGradient>
+    <linearGradient id="accent" x1="0" y1="0" x2="1" y2="0">
+      <stop stop-color="#7C3AED"/>
+      <stop offset="0.5" stop-color="#0891B2"/>
+      <stop offset="1" stop-color="#059669"/>
+    </linearGradient>
+    <radialGradient id="orb"><stop offset="0" stop-color="#06B6D4" stop-opacity=".16"/><stop offset="1" stop-color="#06B6D4" stop-opacity="0"/></radialGradient>
+    <pattern id="grid" width="32" height="32" patternUnits="userSpaceOnUse"><path d="M32 0H0V32" fill="none" stroke="#475569" stroke-opacity=".08"/></pattern>
+  </defs>
+  <rect width="1200" height="420" rx="28" fill="url(#bg)"/>
+  <rect width="1200" height="420" rx="28" fill="url(#grid)"/>
+  <circle cx="1040" cy="75" r="220" fill="url(#orb)"/>
+  <circle cx="120" cy="390" r="230" fill="url(#orb)" opacity=".5"/>
+  <path d="M0 352C212 288 325 385 540 318S902 249 1200 331" fill="none" stroke="url(#accent)" stroke-opacity=".24" stroke-width="2"/>
+  <path d="M0 368C215 306 338 402 548 335S910 269 1200 349" fill="none" stroke="url(#accent)" stroke-opacity=".12"/>
+  <g transform="translate(72 24)">
+    <rect width="132" height="30" rx="15" fill="#7C3AED" fill-opacity=".08" stroke="#7C3AED" stroke-opacity=".35"/>
+    <circle cx="17" cy="15" r="4" fill="#059669"/>
+    <text x="30" y="20" font-family="ui-monospace, SFMono-Regular, Consolas, monospace" font-size="12" font-weight="700" letter-spacing="1.4" fill="#6D28D9">WORKSHOP LIVE</text>
+  </g>
+  <g transform="translate(72 132)">
+    <text font-family="Inter, Segoe UI, Arial, sans-serif" font-size="78" font-weight="850" letter-spacing="-3" fill="#111827">Repo<tspan fill="url(#accent)">Enjoyer</tspan></text>
+    <text y="51" font-family="ui-monospace, SFMono-Regular, Consolas, monospace" font-size="16" letter-spacing="3" fill="#64748B">BUILD  /  INSPECT  /  EXPLAIN  /  SHIP</text>
+    <rect y="84" width="570" height="3" rx="1.5" fill="url(#accent)"/>
+    <text y="127" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="19" fill="#334155">Privacy-first tools. Calm interfaces. Practical knowledge.</text>
+    <text y="158" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="19" fill="#334155">Software with evidence, escape hatches, and a little personality.</text>
+  </g>
+  <g transform="translate(930 204)">
+    <circle r="92" fill="none" stroke="#0891B2" stroke-opacity=".26" stroke-width="1.5" stroke-dasharray="5 9"/>
+    <circle r="62" fill="#FFFFFF" stroke="url(#accent)" stroke-width="3"/>
+    <circle r="48" fill="none" stroke="#7C3AED" stroke-opacity=".22"/>
+    <text text-anchor="middle" y="12" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="42" font-weight="900" letter-spacing="-2" fill="#111827">RE</text>
+    <g font-family="ui-monospace, SFMono-Regular, Consolas, monospace" font-size="10" font-weight="700" fill="#1E293B">
+      <g transform="translate(-104 -60)"><circle r="17" fill="#F5F3FF" stroke="#7C3AED"/><text text-anchor="middle" y="4">SAFE</text></g>
+      <g transform="translate(104 -58)"><circle r="17" fill="#ECFEFF" stroke="#0891B2"/><text text-anchor="middle" y="4">LOCAL</text></g>
+      <g transform="translate(105 62)"><circle r="17" fill="#ECFDF5" stroke="#059669"/><text text-anchor="middle" y="4">CLEAR</text></g>
+      <g transform="translate(-105 62)"><circle r="17" fill="#FFF7ED" stroke="#EA580C"/><text text-anchor="middle" y="4">PLAY</text></g>
+    </g>
+  </g>
+  <g transform="translate(72 359)" font-family="ui-monospace, SFMono-Regular, Consolas, monospace" font-size="11" letter-spacing="1.1">
+    <text fill="#64748B">SYSTEM STATUS</text><text x="112" fill="#047857">● CREATING</text><text x="228" fill="#0E7490">● CURIOUS</text><text x="332" fill="#6D28D9">● OPEN SOURCE</text>
+  </g>
+  <rect x="1" y="1" width="1198" height="418" rx="27" fill="none" stroke="#7C3AED" stroke-opacity=".18" stroke-width="2"/>
+</svg>
