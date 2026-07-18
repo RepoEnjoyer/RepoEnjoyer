@@ -1,10 +1,10 @@
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="assets/hero-dark.svg">
   <source media="(prefers-color-scheme: light)" srcset="assets/hero-light.svg">
-  <img alt="RepoEnjoyer — vibe coder, tool builder, and creator of The Practical AI Guide" src="assets/hero-dark.svg" width="100%">
+  <img alt="RepoEnjoyer: vibe coder, tool builder, and creator of The Practical AI Guide" src="assets/hero-dark.svg" width="100%">
 </picture>
 
-<h1 align="center">I vibe-code useful things—and document the playbook.</h1>
+<h1 align="center">I vibe-code useful things, then document the playbook.</h1>
 
 <p align="center">
   <strong>Privacy-first tools · ambitious experiments · practical AI education · well-documented releases</strong>
@@ -21,7 +21,7 @@
 ## ⭐ Featured project: The Practical AI Guide
 
 <a href="https://github.com/RepoEnjoyer/AI-Guide">
-  <img src="assets/ai-guide-feature.svg" alt="The Practical AI Guide — a practical system for learning AI and vibe coding" width="100%">
+  <img src="assets/ai-guide-feature.svg" alt="The Practical AI Guide: a practical system for learning AI and vibe coding" width="100%">
 </a>
 
 <p align="center">
