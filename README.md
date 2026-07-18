@@ -1,7 +1,7 @@
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="assets/hero-dark.svg">
-  <source media="(prefers-color-scheme: light)" srcset="assets/hero-light.svg">
-  <img alt="RepoEnjoyer: vibe coder, tool builder, and creator of The Practical AI Guide" src="assets/hero-dark.svg" width="100%">
+  <source media="(prefers-color-scheme: dark)" srcset="assets/hero-dark.svg?rain=1">
+  <source media="(prefers-color-scheme: light)" srcset="assets/hero-light.svg?rain=1">
+  <img alt="RepoEnjoyer: vibe coder, tool builder, and creator of The Practical AI Guide, framed by layered purple rain" src="assets/hero-dark.svg?rain=1" width="100%">
 </picture>
 
 <h1 align="center">I vibe-code useful things, then document the playbook.</h1>
