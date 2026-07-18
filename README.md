@@ -48,11 +48,11 @@ It is built for people who want to **use AI well**, not memorize buzzwords. Insi
 | **04 · Prove** | What would show this actually works and is safe? | tests, manual checks, privacy review, failure paths |
 | **05 · Ship** | Can a stranger understand, run, and trust it? | documentation, clean setup, honest limits, useful defaults |
 
-<p align="center"><strong>AI-Guide is the playbook. The projects below are the proof.</strong></p>
+## The playbook in production
 
-<img src="assets/project-map.svg" alt="AI-Guide at the center of RepoEnjoyer's privacy, creator, utility, and experimental projects" width="100%">
+AI-Guide explains the method. These projects put it under real constraints: private data, untrusted packages, complex files, specialist workflows, native graphics, and people who just want the tool to make sense.
 
-## Six builds worth opening
+Every spotlight below follows the same rule: **move fast, keep the work inspectable, and ship something a stranger can actually use.**
 
 <table>
   <tr>
