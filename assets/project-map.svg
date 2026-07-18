@@ -1,64 +1,71 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="500" viewBox="0 0 1200 500" role="img" aria-labelledby="title desc">
-  <title id="title">The RepoEnjoyer project constellation</title>
-  <desc id="desc">Four connected groups show trust tools, creation tools, learning resources, and playful experiments.</desc>
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="540" viewBox="0 0 1200 540" role="img" aria-labelledby="title desc">
+  <title id="title">The playbook and the proof</title>
+  <desc id="desc">The Practical AI Guide sits at the center, connected to RepoEnjoyer's trust tools, creator tools, everyday utilities, and experiments.</desc>
   <defs>
-    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#0B1020"/><stop offset="1" stop-color="#10182C"/></linearGradient>
-    <linearGradient id="line" x1="0" y1="0" x2="1" y2="0"><stop stop-color="#A78BFA"/><stop offset=".5" stop-color="#22D3EE"/><stop offset="1" stop-color="#34D399"/></linearGradient>
-    <filter id="shadow" x="-30%" y="-30%" width="160%" height="160%"><feDropShadow dx="0" dy="8" stdDeviation="10" flood-color="#000" flood-opacity=".3"/></filter>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#080B16"/><stop offset="1" stop-color="#10182B"/></linearGradient>
+    <linearGradient id="ring" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#A78BFA"/><stop offset=".52" stop-color="#22D3EE"/><stop offset="1" stop-color="#34D399"/></linearGradient>
+    <filter id="shadow" x="-40%" y="-40%" width="180%" height="180%"><feDropShadow dx="0" dy="8" stdDeviation="10" flood-color="#000" flood-opacity=".35"/></filter>
+    <pattern id="stars" width="42" height="42" patternUnits="userSpaceOnUse"><circle cx="4" cy="4" r="1" fill="#94A3B8" opacity=".14"/></pattern>
   </defs>
-  <rect width="1200" height="500" rx="24" fill="url(#bg)"/>
-  <g stroke="#334155" stroke-width="1.5" fill="none" stroke-dasharray="5 7">
-    <path d="M600 244L275 128M600 244L925 128M600 244L275 368M600 244L925 368"/>
-  </g>
-  <g transform="translate(600 244)" filter="url(#shadow)">
-    <circle r="82" fill="#111827" stroke="url(#line)" stroke-width="3"/>
-    <circle r="67" fill="none" stroke="#475569"/>
-    <text text-anchor="middle" y="-8" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="25" font-weight="800" fill="#F8FAFC">THE</text>
-    <text text-anchor="middle" y="24" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="25" font-weight="800" fill="#F8FAFC">WORKSHOP</text>
-    <text text-anchor="middle" y="45" font-family="ui-monospace, Consolas, monospace" font-size="10" letter-spacing="2" fill="#94A3B8">USEFUL BY DESIGN</text>
+  <rect width="1200" height="540" rx="24" fill="url(#bg)"/>
+  <rect width="1200" height="540" rx="24" fill="url(#stars)"/>
+  <text x="600" y="42" text-anchor="middle" font-family="ui-monospace, Consolas, monospace" font-size="12" font-weight="700" letter-spacing="3" fill="#94A3B8">THE PLAYBOOK → THE PROOF</text>
+
+  <g stroke="#475569" stroke-width="1.5" fill="none" stroke-dasharray="5 7">
+    <path d="M600 262L310 145M600 262L890 145M600 262L310 404M600 262L890 404"/>
   </g>
 
-  <g transform="translate(70 45)" filter="url(#shadow)">
-    <rect width="410" height="166" rx="18" fill="#151329" stroke="#8B5CF6" stroke-opacity=".65"/>
-    <text x="24" y="34" font-family="ui-monospace, Consolas, monospace" font-size="12" font-weight="700" letter-spacing="2" fill="#C4B5FD">01 / TRUST LAYER</text>
-    <text x="24" y="63" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="15" fill="#CBD5E1">Turn unknown risk into inspectable evidence.</text>
-    <g font-family="Inter, Segoe UI, Arial, sans-serif" font-size="14" font-weight="700">
-      <g transform="translate(24 88)"><rect width="104" height="44" rx="10" fill="#221D3E"/><text x="52" y="27" text-anchor="middle" fill="#EDE9FE">LeakFence</text></g>
-      <g transform="translate(139 88)"><rect width="112" height="44" rx="10" fill="#221D3E"/><text x="56" y="27" text-anchor="middle" fill="#EDE9FE">InstallGlass</text></g>
-      <g transform="translate(262 88)"><rect width="120" height="44" rx="10" fill="#221D3E"/><text x="60" y="27" text-anchor="middle" fill="#EDE9FE">RepoMend</text></g>
+  <g transform="translate(600 262)" filter="url(#shadow)">
+    <circle r="112" fill="#0B1220" stroke="url(#ring)" stroke-width="4"/>
+    <circle r="94" fill="none" stroke="#475569" stroke-opacity=".7"/>
+    <circle cy="-45" r="24" fill="#8B5CF6" fill-opacity=".22" stroke="#A78BFA"/>
+    <text y="-38" text-anchor="middle" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="17" font-weight="900" fill="#EDE9FE">AI</text>
+    <text y="-3" text-anchor="middle" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="22" font-weight="900" fill="#F8FAFC">PRACTICAL</text>
+    <text y="24" text-anchor="middle" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="22" font-weight="900" fill="#67E8F9">AI GUIDE</text>
+    <text y="53" text-anchor="middle" font-family="ui-monospace, Consolas, monospace" font-size="9" letter-spacing="1.7" fill="#94A3B8">LEARN · BUILD · VERIFY · SHIP</text>
+  </g>
+
+  <g transform="translate(62 76)" filter="url(#shadow)">
+    <rect width="340" height="138" rx="18" fill="#17142C" stroke="#8B5CF6" stroke-opacity=".7"/>
+    <text x="22" y="30" font-family="ui-monospace, Consolas, monospace" font-size="11" font-weight="700" letter-spacing="2" fill="#C4B5FD">TRUST TOOLING</text>
+    <text x="22" y="54" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="13" fill="#94A3B8">Make risk visible before shipping.</text>
+    <g font-family="Inter, Segoe UI, Arial, sans-serif" font-size="13" font-weight="700" fill="#EDE9FE">
+      <g transform="translate(20 77)"><rect width="91" height="38" rx="9" fill="#251F45"/><text x="45.5" y="24" text-anchor="middle">LeakFence</text></g>
+      <g transform="translate(120 77)"><rect width="101" height="38" rx="9" fill="#251F45"/><text x="50.5" y="24" text-anchor="middle">InstallGlass</text></g>
+      <g transform="translate(230 77)"><rect width="90" height="38" rx="9" fill="#251F45"/><text x="45" y="24" text-anchor="middle">RepoMend</text></g>
     </g>
   </g>
 
-  <g transform="translate(720 45)" filter="url(#shadow)">
-    <rect width="410" height="166" rx="18" fill="#09242A" stroke="#22D3EE" stroke-opacity=".65"/>
-    <text x="24" y="34" font-family="ui-monospace, Consolas, monospace" font-size="12" font-weight="700" letter-spacing="2" fill="#67E8F9">02 / CREATE &amp; SHIP</text>
-    <text x="24" y="63" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="15" fill="#CBD5E1">Give ambitious work a calmer path to done.</text>
-    <g font-family="Inter, Segoe UI, Arial, sans-serif" font-size="14" font-weight="700">
-      <g transform="translate(24 88)"><rect width="120" height="44" rx="10" fill="#10353D"/><text x="60" y="27" text-anchor="middle" fill="#CFFAFE">CreatorDock</text></g>
-      <g transform="translate(155 88)"><rect width="104" height="44" rx="10" fill="#10353D"/><text x="52" y="27" text-anchor="middle" fill="#CFFAFE">FormMint</text></g>
-      <g transform="translate(270 88)"><rect width="112" height="44" rx="10" fill="#10353D"/><text x="56" y="27" text-anchor="middle" fill="#CFFAFE">OverlayKit</text></g>
+  <g transform="translate(798 76)" filter="url(#shadow)">
+    <rect width="340" height="138" rx="18" fill="#09242A" stroke="#22D3EE" stroke-opacity=".7"/>
+    <text x="22" y="30" font-family="ui-monospace, Consolas, monospace" font-size="11" font-weight="700" letter-spacing="2" fill="#67E8F9">CREATOR TOOLS</text>
+    <text x="22" y="54" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="13" fill="#94A3B8">Turn specialist work into a clear flow.</text>
+    <g font-family="Inter, Segoe UI, Arial, sans-serif" font-size="13" font-weight="700" fill="#CFFAFE">
+      <g transform="translate(20 77)"><rect width="100" height="38" rx="9" fill="#103841"/><text x="50" y="24" text-anchor="middle">CreatorDock</text></g>
+      <g transform="translate(129 77)"><rect width="91" height="38" rx="9" fill="#103841"/><text x="45.5" y="24" text-anchor="middle">FormMint</text></g>
+      <g transform="translate(229 77)"><rect width="91" height="38" rx="9" fill="#103841"/><text x="45.5" y="24" text-anchor="middle">OverlayKit</text></g>
     </g>
   </g>
 
-  <g transform="translate(70 288)" filter="url(#shadow)">
-    <rect width="410" height="166" rx="18" fill="#09251D" stroke="#34D399" stroke-opacity=".65"/>
-    <text x="24" y="34" font-family="ui-monospace, Consolas, monospace" font-size="12" font-weight="700" letter-spacing="2" fill="#6EE7B7">03 / LEARN &amp; ENABLE</text>
-    <text x="24" y="63" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="15" fill="#CBD5E1">Make powerful ideas easier to use well.</text>
-    <g font-family="Inter, Segoe UI, Arial, sans-serif" font-size="14" font-weight="700">
-      <g transform="translate(24 88)"><rect width="102" height="44" rx="10" fill="#123A2E"/><text x="51" y="27" text-anchor="middle" fill="#D1FAE5">AI Guide</text></g>
-      <g transform="translate(137 88)"><rect width="116" height="44" rx="10" fill="#123A2E"/><text x="58" y="27" text-anchor="middle" fill="#D1FAE5">AI for School</text></g>
-      <g transform="translate(264 88)"><rect width="118" height="44" rx="10" fill="#123A2E"/><text x="59" y="27" text-anchor="middle" fill="#D1FAE5">VoxLocal</text></g>
+  <g transform="translate(62 333)" filter="url(#shadow)">
+    <rect width="340" height="142" rx="18" fill="#09251D" stroke="#34D399" stroke-opacity=".7"/>
+    <text x="22" y="30" font-family="ui-monospace, Consolas, monospace" font-size="11" font-weight="700" letter-spacing="2" fill="#6EE7B7">USEFUL + LOCAL</text>
+    <text x="22" y="54" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="13" fill="#94A3B8">Solve the problem without another cloud.</text>
+    <g font-family="Inter, Segoe UI, Arial, sans-serif" font-size="13" font-weight="700" fill="#D1FAE5">
+      <g transform="translate(38 80)"><rect width="120" height="38" rx="9" fill="#123B2F"/><text x="60" y="24" text-anchor="middle">DirChord</text></g>
+      <g transform="translate(182 80)"><rect width="120" height="38" rx="9" fill="#123B2F"/><text x="60" y="24" text-anchor="middle">VoxLocal</text></g>
     </g>
   </g>
 
-  <g transform="translate(720 288)" filter="url(#shadow)">
-    <rect width="410" height="166" rx="18" fill="#29190D" stroke="#FB923C" stroke-opacity=".65"/>
-    <text x="24" y="34" font-family="ui-monospace, Consolas, monospace" font-size="12" font-weight="700" letter-spacing="2" fill="#FDBA74">04 / UTILITY &amp; PLAY</text>
-    <text x="24" y="63" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="15" fill="#CBD5E1">Stay curious. Build the useful weird thing.</text>
-    <g font-family="Inter, Segoe UI, Arial, sans-serif" font-size="14" font-weight="700">
-      <g transform="translate(72 88)"><rect width="120" height="44" rx="10" fill="#3B2413"/><text x="60" y="27" text-anchor="middle" fill="#FFEDD5">DirChord</text></g>
-      <g transform="translate(216 88)"><rect width="120" height="44" rx="10" fill="#3B2413"/><text x="60" y="27" text-anchor="middle" fill="#FFEDD5">Grimwick</text></g>
+  <g transform="translate(798 333)" filter="url(#shadow)">
+    <rect width="340" height="142" rx="18" fill="#29190D" stroke="#FB923C" stroke-opacity=".7"/>
+    <text x="22" y="30" font-family="ui-monospace, Consolas, monospace" font-size="11" font-weight="700" letter-spacing="2" fill="#FDBA74">LEARN + PLAY</text>
+    <text x="22" y="54" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="13" fill="#94A3B8">Teach clearly. Experiment freely.</text>
+    <g font-family="Inter, Segoe UI, Arial, sans-serif" font-size="13" font-weight="700" fill="#FFEDD5">
+      <g transform="translate(38 80)"><rect width="120" height="38" rx="9" fill="#422514"/><text x="60" y="24" text-anchor="middle">AI for School</text></g>
+      <g transform="translate(182 80)"><rect width="120" height="38" rx="9" fill="#422514"/><text x="60" y="24" text-anchor="middle">Grimwick</text></g>
     </g>
   </g>
-  <rect x="1" y="1" width="1198" height="498" rx="23" fill="none" stroke="#334155"/>
+  <text x="600" y="512" text-anchor="middle" font-family="ui-monospace, Consolas, monospace" font-size="10" letter-spacing="2" fill="#64748B">ONE METHOD · MANY SURFACES · REAL OUTPUTS</text>
+  <rect x="1" y="1" width="1198" height="538" rx="23" fill="none" stroke="#334155"/>
 </svg>
