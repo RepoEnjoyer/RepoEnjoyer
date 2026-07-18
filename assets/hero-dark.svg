@@ -1,68 +1,50 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="420" viewBox="0 0 1200 420" role="img" aria-labelledby="title desc">
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="460" viewBox="0 0 1200 460" role="img" aria-labelledby="title desc">
   <title id="title">RepoEnjoyer</title>
-  <desc id="desc">A dark technical workshop banner with project nodes orbiting a central RE monogram.</desc>
+  <desc id="desc">A centered dark banner for a vibe coder and tool builder, featuring The Practical AI Guide.</desc>
   <defs>
-    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
-      <stop offset="0" stop-color="#070A14"/>
-      <stop offset="0.48" stop-color="#11122A"/>
-      <stop offset="1" stop-color="#07161C"/>
-    </linearGradient>
-    <linearGradient id="accent" x1="0" y1="0" x2="1" y2="0">
-      <stop stop-color="#A78BFA"/>
-      <stop offset="0.5" stop-color="#22D3EE"/>
-      <stop offset="1" stop-color="#34D399"/>
-    </linearGradient>
-    <radialGradient id="orb">
-      <stop offset="0" stop-color="#22D3EE" stop-opacity=".35"/>
-      <stop offset="1" stop-color="#22D3EE" stop-opacity="0"/>
-    </radialGradient>
-    <pattern id="grid" width="32" height="32" patternUnits="userSpaceOnUse">
-      <path d="M32 0H0V32" fill="none" stroke="#9CA3AF" stroke-opacity=".08"/>
-    </pattern>
-    <filter id="glow" x="-50%" y="-50%" width="200%" height="200%">
-      <feGaussianBlur stdDeviation="8" result="b"/>
-      <feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge>
-    </filter>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#070913"/><stop offset=".5" stop-color="#11122A"/><stop offset="1" stop-color="#071A1D"/></linearGradient>
+    <linearGradient id="word" x1="0" y1="0" x2="1" y2="0"><stop stop-color="#F8FAFC"/><stop offset=".38" stop-color="#C4B5FD"/><stop offset=".68" stop-color="#67E8F9"/><stop offset="1" stop-color="#6EE7B7"/></linearGradient>
+    <linearGradient id="accent" x1="0" y1="0" x2="1" y2="0"><stop stop-color="#A78BFA"/><stop offset=".5" stop-color="#22D3EE"/><stop offset="1" stop-color="#34D399"/></linearGradient>
+    <pattern id="grid" width="30" height="30" patternUnits="userSpaceOnUse"><path d="M30 0H0V30" fill="none" stroke="#94A3B8" stroke-opacity=".065"/></pattern>
+    <radialGradient id="glow"><stop stop-color="#22D3EE" stop-opacity=".22"/><stop offset="1" stop-color="#22D3EE" stop-opacity="0"/></radialGradient>
+    <filter id="soft" x="-40%" y="-40%" width="180%" height="180%"><feGaussianBlur stdDeviation="8"/></filter>
   </defs>
-  <rect width="1200" height="420" rx="28" fill="url(#bg)"/>
-  <rect width="1200" height="420" rx="28" fill="url(#grid)"/>
-  <circle cx="1040" cy="75" r="220" fill="url(#orb)"/>
-  <circle cx="120" cy="390" r="230" fill="url(#orb)" opacity=".5"/>
-  <path d="M0 352C212 288 325 385 540 318S902 249 1200 331" fill="none" stroke="url(#accent)" stroke-opacity=".22" stroke-width="2"/>
-  <path d="M0 368C215 306 338 402 548 335S910 269 1200 349" fill="none" stroke="url(#accent)" stroke-opacity=".1"/>
+  <rect width="1200" height="460" rx="28" fill="url(#bg)"/>
+  <rect width="1200" height="460" rx="28" fill="url(#grid)"/>
+  <circle cx="600" cy="190" r="310" fill="url(#glow)"/>
+  <circle cx="115" cy="72" r="58" fill="#8B5CF6" opacity=".08" filter="url(#soft)"/>
+  <circle cx="1085" cy="382" r="68" fill="#34D399" opacity=".08" filter="url(#soft)"/>
 
-  <g transform="translate(72 24)">
-    <rect width="132" height="30" rx="15" fill="#A78BFA" fill-opacity=".13" stroke="#A78BFA" stroke-opacity=".45"/>
-    <circle cx="17" cy="15" r="4" fill="#34D399" filter="url(#glow)"/>
-    <text x="30" y="20" font-family="ui-monospace, SFMono-Regular, Consolas, monospace" font-size="12" font-weight="700" letter-spacing="1.4" fill="#D8B4FE">WORKSHOP LIVE</text>
+  <g opacity=".6" stroke="url(#accent)" fill="none">
+    <path d="M90 52H390"/><path d="M810 52H1110"/>
+    <path d="M90 52v18M1110 52v18"/>
+    <circle cx="390" cy="52" r="3" fill="#A78BFA"/><circle cx="810" cy="52" r="3" fill="#34D399"/>
   </g>
 
-  <g transform="translate(72 132)">
-    <text font-family="Inter, Segoe UI, Arial, sans-serif" font-size="78" font-weight="850" letter-spacing="-3" fill="#F8FAFC">Repo<tspan fill="url(#accent)">Enjoyer</tspan></text>
-    <text y="51" font-family="ui-monospace, SFMono-Regular, Consolas, monospace" font-size="16" letter-spacing="3" fill="#94A3B8">BUILD  /  INSPECT  /  EXPLAIN  /  SHIP</text>
-    <rect y="84" width="570" height="3" rx="1.5" fill="url(#accent)"/>
-    <text y="127" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="19" fill="#CBD5E1">Privacy-first tools. Calm interfaces. Practical knowledge.</text>
-    <text y="158" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="19" fill="#CBD5E1">Software with evidence, escape hatches, and a little personality.</text>
+  <g>
+    <rect x="438" y="28" width="324" height="48" rx="24" fill="#111827" stroke="#8B5CF6" stroke-opacity=".75"/>
+    <text x="600" y="58" text-anchor="middle" font-family="ui-monospace, SFMono-Regular, Consolas, monospace" font-size="13" font-weight="700" letter-spacing="2.2" fill="#E9D5FF">VIBE CODER · TOOL BUILDER</text>
   </g>
 
-  <g transform="translate(930 204)">
-    <circle r="92" fill="none" stroke="#22D3EE" stroke-opacity=".25" stroke-width="1.5" stroke-dasharray="5 9"/>
-    <circle r="62" fill="#0B1220" stroke="url(#accent)" stroke-width="3"/>
-    <circle r="48" fill="none" stroke="#A78BFA" stroke-opacity=".25"/>
-    <text text-anchor="middle" y="12" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="42" font-weight="900" letter-spacing="-2" fill="#F8FAFC">RE</text>
-    <g font-family="ui-monospace, SFMono-Regular, Consolas, monospace" font-size="10" font-weight="700" fill="#E2E8F0">
-      <g transform="translate(-104 -60)"><circle r="17" fill="#17142C" stroke="#A78BFA"/><text text-anchor="middle" y="4">SAFE</text></g>
-      <g transform="translate(104 -58)"><circle r="17" fill="#09242A" stroke="#22D3EE"/><text text-anchor="middle" y="4">LOCAL</text></g>
-      <g transform="translate(105 62)"><circle r="17" fill="#09231D" stroke="#34D399"/><text text-anchor="middle" y="4">CLEAR</text></g>
-      <g transform="translate(-105 62)"><circle r="17" fill="#291A0C" stroke="#FB923C"/><text text-anchor="middle" y="4">PLAY</text></g>
+  <text x="600" y="177" text-anchor="middle" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="92" font-weight="900" letter-spacing="-4" fill="url(#word)">RepoEnjoyer</text>
+  <text x="600" y="219" text-anchor="middle" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="21" font-weight="600" fill="#CBD5E1">I turn rough ideas into useful software—then teach the method.</text>
+  <rect x="330" y="246" width="540" height="3" rx="1.5" fill="url(#accent)"/>
+
+  <g transform="translate(275 273)">
+    <rect width="650" height="70" rx="16" fill="#0C1423" stroke="#22D3EE" stroke-opacity=".4"/>
+    <g transform="translate(24 13)">
+      <rect width="44" height="44" rx="12" fill="#8B5CF6" fill-opacity=".18" stroke="#A78BFA"/>
+      <text x="22" y="29" text-anchor="middle" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="18" font-weight="900" fill="#DDD6FE">AI</text>
     </g>
+    <text x="86" y="29" font-family="ui-monospace, SFMono-Regular, Consolas, monospace" font-size="11" font-weight="700" letter-spacing="2" fill="#67E8F9">TOP PROJECT</text>
+    <text x="86" y="52" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="19" font-weight="800" fill="#F8FAFC">The Practical AI Guide · learn to vibe code</text>
+    <text x="620" y="43" text-anchor="end" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="24" fill="#34D399">→</text>
   </g>
 
-  <g transform="translate(72 359)" font-family="ui-monospace, SFMono-Regular, Consolas, monospace" font-size="11" letter-spacing="1.1">
-    <text fill="#64748B">SYSTEM STATUS</text>
-    <text x="112" fill="#34D399">● CREATING</text>
-    <text x="228" fill="#22D3EE">● CURIOUS</text>
-    <text x="332" fill="#A78BFA">● OPEN SOURCE</text>
+  <g transform="translate(150 373)" font-family="ui-monospace, SFMono-Regular, Consolas, monospace">
+    <g><rect width="250" height="46" rx="13" fill="#17142C" stroke="#8B5CF6" stroke-opacity=".5"/><text x="125" y="29" text-anchor="middle" font-size="12" font-weight="700" letter-spacing="1.5" fill="#C4B5FD">PROMPT → PROJECT</text></g>
+    <g transform="translate(325)"><rect width="250" height="46" rx="13" fill="#09242A" stroke="#22D3EE" stroke-opacity=".5"/><text x="125" y="29" text-anchor="middle" font-size="12" font-weight="700" letter-spacing="1.5" fill="#67E8F9">LOCAL → PRIVATE</text></g>
+    <g transform="translate(650)"><rect width="250" height="46" rx="13" fill="#09251D" stroke="#34D399" stroke-opacity=".5"/><text x="125" y="29" text-anchor="middle" font-size="12" font-weight="700" letter-spacing="1.5" fill="#6EE7B7">BUILD → PROVE → SHIP</text></g>
   </g>
-  <rect x="1" y="1" width="1198" height="418" rx="27" fill="none" stroke="#A78BFA" stroke-opacity=".2" stroke-width="2"/>
+  <rect x="1" y="1" width="1198" height="458" rx="27" fill="none" stroke="#8B5CF6" stroke-opacity=".25" stroke-width="2"/>
 </svg>
