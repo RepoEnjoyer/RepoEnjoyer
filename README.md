@@ -16,6 +16,16 @@
   <a href="https://github.com/RepoEnjoyer?tab=achievements"><img alt="View GitHub achievements" src="https://img.shields.io/badge/VIEW-ACHIEVEMENTS-10B981?style=for-the-badge&labelColor=111827"></a>
 </p>
 
+<br>
+
+<p align="center">
+  <img src="assets/repoenjoyer-holyc.gif" alt="RepoEnjoyer and Terry Davis reaching toward a glowing HolyC spark" width="100%">
+</p>
+
+<p align="center">
+  <sub><strong>THE SPARK</strong> · curiosity meets low-level obsession · ideas become repositories</sub>
+</p>
+
 ---
 
 ## ⭐ Featured project: The Practical AI Guide
