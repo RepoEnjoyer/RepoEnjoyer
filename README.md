@@ -1,3 +1,13 @@
+<p align="center">
+  <img src="assets/repoenjoyer-holyc.jpg" alt="RepoEnjoyer and Terry Davis reaching toward a glowing HolyC spark" width="100%">
+</p>
+
+<p align="center">
+  <sub><strong>THE SPARK</strong> · curiosity meets low-level obsession · ideas become repositories</sub>
+</p>
+
+<br>
+
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="assets/hero-dark.svg?rain=1">
   <source media="(prefers-color-scheme: light)" srcset="assets/hero-light.svg?rain=1">
@@ -14,16 +24,6 @@
   <a href="https://github.com/RepoEnjoyer/AI-Guide"><img alt="Open The Practical AI Guide" src="https://img.shields.io/badge/FEATURED-THE_PRACTICAL_AI_GUIDE-8B5CF6?style=for-the-badge&labelColor=111827"></a>
   <a href="https://github.com/RepoEnjoyer?tab=repositories"><img alt="Explore all repositories" src="https://img.shields.io/badge/EXPLORE-ALL_BUILDS-06B6D4?style=for-the-badge&labelColor=111827"></a>
   <a href="https://github.com/RepoEnjoyer?tab=achievements"><img alt="View GitHub achievements" src="https://img.shields.io/badge/VIEW-ACHIEVEMENTS-10B981?style=for-the-badge&labelColor=111827"></a>
-</p>
-
-<br>
-
-<p align="center">
-  <img src="assets/repoenjoyer-holyc.gif" alt="RepoEnjoyer and Terry Davis reaching toward a glowing HolyC spark" width="100%">
-</p>
-
-<p align="center">
-  <sub><strong>THE SPARK</strong> · curiosity meets low-level obsession · ideas become repositories</sub>
 </p>
 
 ---
