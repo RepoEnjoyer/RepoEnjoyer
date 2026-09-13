@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="132" viewBox="0 0 1200 132" role="img" aria-labelledby="title desc">
+  <title id="title">Ask better questions. Leave useful artifacts.</title>
+  <desc id="desc">A quiet animated signal travels across an oscilloscope trace beside the closing thought.</desc>
+  <defs><style>
+    .signal{stroke-dasharray:32 610;animation:travel 7s linear infinite}
+    @keyframes travel{to{stroke-dashoffset:-642}}
+    @media(prefers-reduced-motion:reduce){.signal{animation:none!important}}
+  </style></defs>
+  <rect width="1200" height="132" rx="12" fill="#10191e"/>
+  <text x="42" y="52" font-family="'Courier New',monospace" font-size="12" letter-spacing="2" fill="#dfab88">THE WORK CONTINUES</text>
+  <text x="41" y="90" font-family="Arial,Helvetica,sans-serif" font-size="27" fill="#eeece3">Ask better questions. Leave useful artifacts.</text>
+  <path d="M773 68H834L850 49 870 86 890 28 913 106 934 54 952 68H1160" fill="none" stroke="#38514f" stroke-width="2"/>
+  <path d="M773 68H834L850 49 870 86 890 28 913 106 934 54 952 68H1160" fill="none" stroke="#a5ddce" stroke-width="2" class="signal"/>
+</svg>
