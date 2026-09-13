@@ -1,17 +1,27 @@
 <p align="center">
-  <img src="assets/systems-lab.svg" alt="RepoEnjoyer. Independent systems lab. Find the hidden mechanism. Build something useful." width="100%">
-</p>
-
-<p align="center">
-  <a href="#selected-work">Selected work</a> &nbsp; / &nbsp;
+  <a href="https://github.com/search?q=author%3ARepoEnjoyer&amp;type=commits&amp;s=committer-date&amp;o=desc"><strong>Daily commits ↗</strong></a> &nbsp; / &nbsp;
+  <a href="#built-to-go-deeper">Selected work</a> &nbsp; / &nbsp;
   <a href="https://github.com/RepoEnjoyer/AI-Guide">The AI Guide</a> &nbsp; / &nbsp;
   <a href="#how-i-think-about-software">Working principles</a> &nbsp; / &nbsp;
   <a href="https://github.com/RepoEnjoyer?tab=repositories">All repositories ↗</a>
 </p>
 
+<p align="center">
+  <a href="https://github.com/RepoEnjoyer/HolyC-Handbook">
+    <img src="assets/repoenjoyer-holyc.jpg" alt="RepoEnjoyer and Terry Davis reaching toward a glowing HolyC spark" width="100%">
+  </a>
+</p>
+
+<p align="center"><sub><strong>THE SPARK</strong> &nbsp; · &nbsp; HolyC, Terry Davis, and the curiosity to build your own world.</sub></p>
+
+<p align="center">
+  <img src="assets/purple-core.svg" alt="RepoEnjoyer. Build with curiosity. Think in systems. Open source, privacy tools, and practical AI." width="100%">
+</p>
+
+
 <br>
 
-## Curiosity, with source code.
+## Curiosity runs deep.
 
 I'm **RepoEnjoyer**. I build tools that make hidden behavior easier to inspect: what a package does during installation, what a repository accidentally reveals, and what a graphics layer needs to stay small and predictable.
 
@@ -21,7 +31,7 @@ I like a good abstraction. I like knowing what it hides even more.
 
 <br>
 
-## Selected work
+## Built to go deeper
 
 <table>
 <tr>
@@ -72,7 +82,7 @@ A deterministic repository doctor for Git state, dependency health, workflow ris
 
 <br>
 
-## The knowledge should travel.
+## The playbook is open.
 
 <a href="https://github.com/RepoEnjoyer/AI-Guide">
   <img src="assets/field-guide.svg" alt="The Practical AI Guide. From a better question to a working project. 17 chapters, 5 hands-on labs, reusable templates." width="100%">
@@ -110,7 +120,7 @@ For a different kind of machine, there's **[HolyC Handbook](https://github.com/R
 <br>
 
 <p align="center">
-  <img src="assets/lab-footer.svg" alt="Ask better questions. Leave useful artifacts." width="100%">
+  <img src="assets/lab-footer.svg" alt="Stay curious. Build something that matters." width="100%">
 </p>
 
 <p align="center"><sub>Explore a repository. Read the design decisions. Try to break an assumption.</sub></p>

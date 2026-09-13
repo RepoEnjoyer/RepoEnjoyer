@@ -1,24 +1,29 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="228" viewBox="0 0 1200 228" role="img" aria-labelledby="title desc">
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="244" viewBox="0 0 1200 244" role="img" aria-labelledby="title desc">
   <title id="title">The Practical AI Guide</title>
-  <desc id="desc">From a better question to a working project. Seventeen chapters, five hands-on labs, and reusable templates.</desc>
+  <desc id="desc">An open playbook from a better question to a working project. Seventeen chapters, five labs, and reusable templates, with floating violet glass pages.</desc>
   <defs>
-    <pattern id="paper" width="8" height="8" patternUnits="userSpaceOnUse"><circle cx="2" cy="2" r=".5" fill="#c6c3b8"/></pattern>
-    <style>.sans{font-family:Arial,Helvetica,sans-serif}.mono{font-family:'Courier New',monospace}</style>
+    <linearGradient id="bg" x2="1" y2="1"><stop stop-color="#1e1037"/><stop offset="1" stop-color="#110b20"/></linearGradient>
+    <linearGradient id="page" x2="1" y2="1"><stop stop-color="#c896ff" stop-opacity=".5"/><stop offset="1" stop-color="#773cd4" stop-opacity=".2"/></linearGradient>
+    <radialGradient id="aura"><stop stop-color="#923cff" stop-opacity=".3"/><stop offset="1" stop-color="#923cff" stop-opacity="0"/></radialGradient>
+    <style>.sans{font-family:Arial,Helvetica,sans-serif}.mono{font-family:'Courier New',monospace}.pages{animation:float 6s ease-in-out infinite}@keyframes float{0%,100%{transform:translateY(-4px)}50%{transform:translateY(4px)}}@media(prefers-reduced-motion:reduce){.pages{animation:none!important}}</style>
   </defs>
-  <rect x="1" y="1" width="1198" height="226" rx="12" fill="#eeece3" stroke="#d2d0c5"/>
-  <rect x="878" y="2" width="308" height="224" fill="url(#paper)"/>
-  <path d="M32 33H38V195H32Z" fill="#8b583a"/>
-  <text x="64" y="51" class="mono" font-size="13" letter-spacing="2" fill="#755239">FIELD NOTES / OPEN KNOWLEDGE</text>
-  <text x="62" y="106" class="sans" font-size="46" font-weight="700" letter-spacing="-1.7" fill="#18272d">The Practical AI Guide</text>
-  <text x="64" y="143" class="sans" font-size="21" fill="#435451">From a better question to a working project.</text>
-  <text x="64" y="191" class="mono" font-size="14" fill="#53635b">17 CHAPTERS<tspan dx="28">5 LABS</tspan><tspan dx="28">REUSABLE TEMPLATES</tspan></text>
-  <g fill="none" stroke="#6f8980">
-    <path d="M932 68 989 38 1102 99 1045 130Z" fill="#e7e8dc"/>
-    <path d="M932 88 989 58 1102 119 1045 150Z" fill="#d8e0d4"/>
-    <path d="M932 108 989 78 1102 139 1045 170Z" fill="#c5d6c9"/>
-    <path d="M932 128 989 98 1102 159 1045 190Z" fill="#a6c0af"/>
-    <path d="M955 127 1047 177M965 122 1057 171M975 116 1067 165" stroke="#f4f2e9" stroke-width="2"/>
+  <rect x=".5" y=".5" width="1199" height="243" rx="20" fill="url(#bg)" stroke="#70459c"/>
+  <ellipse cx="1034" cy="122" rx="164" ry="121" fill="url(#aura)"/>
+  <rect x="34" y="38" width="4" height="165" rx="2" fill="#b37bff"/>
+  <text x="62" y="53" class="mono" font-size="13" letter-spacing="2" fill="#c19bec">THE OPEN PLAYBOOK / AI-GUIDE</text>
+  <text x="60" y="110" class="sans" font-size="49" font-weight="700" letter-spacing="-1.8" fill="#f5edff">The Practical AI Guide</text>
+  <text x="62" y="147" class="sans" font-size="21" fill="#c7b5dd">From a better question to a working project.</text>
+  <g class="mono" font-size="13" fill="#d7baff">
+    <rect x="62" y="173" width="140" height="31" rx="8" fill="#ac70ff" fill-opacity=".1"/><text x="77" y="193">17 CHAPTERS</text>
+    <rect x="214" y="173" width="94" height="31" rx="8" fill="#ac70ff" fill-opacity=".1"/><text x="229" y="193">5 LABS</text>
+    <rect x="320" y="173" width="200" height="31" rx="8" fill="#ac70ff" fill-opacity=".1"/><text x="335" y="193">REUSABLE TEMPLATES</text>
   </g>
-  <circle cx="1139" cy="46" r="21" fill="#18272d"/>
-  <path d="M1131 54 1147 38M1134 38H1147V51" fill="none" stroke="#eeece3" stroke-width="2"/>
+  <g class="pages" stroke="#bb85fc" stroke-width="1.3" stroke-linejoin="round" fill="url(#page)">
+    <path d="M927 150 1003 105 1120 166 1044 212Z"/>
+    <path d="M927 120 1003 75 1120 136 1044 182Z"/>
+    <path d="M927 90 1003 45 1120 106 1044 152Z"/>
+    <path d="M960 88 1021 120M978 78 1057 119M996 68 1075 109" fill="none" stroke="#ead2ff" stroke-width="2"/>
+  </g>
+  <circle cx="1144" cy="46" r="20" fill="#a76aed" fill-opacity=".15" stroke="#a875e8" stroke-opacity=".5"/>
+  <path d="M1137 53 1151 39M1138 39H1151V52" fill="none" stroke="#e8d1ff" stroke-width="2"/>
 </svg>

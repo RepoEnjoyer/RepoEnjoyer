@@ -1,14 +1,17 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="132" viewBox="0 0 1200 132" role="img" aria-labelledby="title desc">
-  <title id="title">Ask better questions. Leave useful artifacts.</title>
-  <desc id="desc">A quiet animated signal travels across an oscilloscope trace beside the closing thought.</desc>
-  <defs><style>
-    .signal{stroke-dasharray:32 610;animation:travel 7s linear infinite}
-    @keyframes travel{to{stroke-dashoffset:-642}}
-    @media(prefers-reduced-motion:reduce){.signal{animation:none!important}}
-  </style></defs>
-  <rect width="1200" height="132" rx="12" fill="#10191e"/>
-  <text x="42" y="52" font-family="'Courier New',monospace" font-size="12" letter-spacing="2" fill="#dfab88">THE WORK CONTINUES</text>
-  <text x="41" y="90" font-family="Arial,Helvetica,sans-serif" font-size="27" fill="#eeece3">Ask better questions. Leave useful artifacts.</text>
-  <path d="M773 68H834L850 49 870 86 890 28 913 106 934 54 952 68H1160" fill="none" stroke="#38514f" stroke-width="2"/>
-  <path d="M773 68H834L850 49 870 86 890 28 913 106 934 54 952 68H1160" fill="none" stroke="#a5ddce" stroke-width="2" class="signal"/>
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="144" viewBox="0 0 1200 144" role="img" aria-labelledby="title desc">
+  <title id="title">Stay curious. Build something that matters.</title>
+  <desc id="desc">A violet light trail flows through a curved wave beside the closing thought.</desc>
+  <defs>
+    <linearGradient id="bg"><stop stop-color="#1c1031"/><stop offset="1" stop-color="#11091f"/></linearGradient>
+    <linearGradient id="beam"><stop stop-color="#8f4ee3"/><stop offset=".5" stop-color="#ebc7ff"/><stop offset="1" stop-color="#9653e8"/></linearGradient>
+    <style>.beam{stroke-dasharray:90 440;animation:flow 5s linear infinite}@keyframes flow{to{stroke-dashoffset:-530}}@media(prefers-reduced-motion:reduce){.beam{animation:none!important}}</style>
+  </defs>
+  <rect x=".5" y=".5" width="1199" height="143" rx="20" fill="url(#bg)" stroke="#653991"/>
+  <text x="42" y="53" font-family="'Courier New',monospace" font-size="12" letter-spacing="2.5" fill="#bb8be8">ALWAYS ANOTHER LAYER TO EXPLORE</text>
+  <text x="40" y="94" font-family="Arial,Helvetica,sans-serif" font-size="29" font-weight="700" letter-spacing="-.5" fill="#eee0ff">Stay curious. Build something that matters.</text>
+  <g fill="none">
+    <path d="M790 74C835 74 842 21 888 35S937 120 984 103 1045 39 1091 54 1132 80 1170 74" stroke="#6a3d93" stroke-width="1.5"/>
+    <path d="M790 84C835 84 842 31 888 45S937 130 984 113 1045 49 1091 64 1132 90 1170 84" stroke="#422556"/>
+    <path d="M790 74C835 74 842 21 888 35S937 120 984 103 1045 39 1091 54 1132 80 1170 74" stroke="url(#beam)" stroke-width="3" class="beam"/>
+  </g>
 </svg>
